@@ -4,15 +4,15 @@ class Bin{
             isStatic: true
         };
 
-        this.bodyBottom = Bodies.rectangle(1000,380,100,20,option);
+        this.bodyBottom = Bodies.rectangle(1100,380,100,20,option);
         this.width1 = 200;
         this.height1 = 20;
 
-        this.bodyRight = Bodies.rectangle(900,340,200,50,option);
+        this.bodyRight = Bodies.rectangle(1000,340,200,50,option);
         this.width2 = 20;
         this.height2 = 100;
 
-        this.bodyLeft = Bodies.rectangle(1090,340,200,50,option);
+        this.bodyLeft = Bodies.rectangle(1190,340,200,50,option);
         this.width3 = 20;
         this.height3 = 100;
 
@@ -34,4 +34,4 @@ class Bin{
         rect(boxLeft.x,boxLeft.y,this.width2,this.height2);
         rect(boxRight.x,boxRight.y,this.width3,this.height3);
     };
-};
+}; 
